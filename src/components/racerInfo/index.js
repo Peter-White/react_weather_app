@@ -3,7 +3,6 @@ import './index.css';
 
 class RacerInfo extends Component {
   render() {
-    console.log(this.props.data);
     return (
       <div className="row">
         <div className="col-md-12">

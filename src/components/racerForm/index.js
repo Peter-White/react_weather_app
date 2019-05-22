@@ -9,7 +9,7 @@ class RacerForm extends Component {
           <form onSubmit={this.props.getRacers} className="RacerForm">
             <input type="text" name="year" placeholder="Year" />
             <input type="text" name="season" placeholder="Season" />
-            <input type="submit" value="Search"/>
+            <input type="submit" value="Get Standings"/>
           </form>
         </div>
       </div>

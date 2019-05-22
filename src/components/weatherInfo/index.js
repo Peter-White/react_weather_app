@@ -18,7 +18,7 @@ class WeatherInfo extends Component {
             }
             {
               this.props.data.cod === '404' &&
-                <h3 className="error">ERROR: {this.props.data.message.toUpperCase()}</h3>
+                <h3 className="error">ERROR</h3>
             }
         </div> {/* ends col 12 */}
       </div> // ends row
